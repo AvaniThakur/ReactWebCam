@@ -33,7 +33,7 @@ const CameraComponent = () => {
     ctx.drawImage(video, 0, 0, width, height);
 
     // You can save the image by converting the canvas data to a data URL
-    const dataURL = canvas.toDataURL("data url");
+    const dataURL = canvas.toDataURL("canvas data to url data");
 
     // For this example, we'll log the dataURL in the console
     console.log("Captured image data URL:", dataURL);
